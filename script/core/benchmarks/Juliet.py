@@ -18,7 +18,7 @@ class Juliet(Benchmark):
     """Juliet Benchmark"""
 
     def __init__(self):
-        super(Defects4J, self).__init__("Juliet")
+        super(Juliet, self).__init__("Juliet")
         self.path = os.path.join(REPAIR_ROOT, "benchmarks", "juliet")
         self.project_data = {}
         self.bugs = None
